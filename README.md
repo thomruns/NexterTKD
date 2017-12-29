@@ -6,3 +6,11 @@ Sets the basic grid layout for the page. Grid is a flexible 8 column centered w 
 
 ## Branch Features
 Sets the (sub)grid for the Features section. This section completed first as it uses the Layout base grid. A main grid is established for the section (features), then subgrid (feature) is added to complete the layout.
+
+## Branch Story
+
+### __pictures
+Styling for the pictures side of the story section
+
+### __content
+Styling for the content side of the story section
