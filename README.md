@@ -20,4 +20,4 @@ Styling for the content side of the story section
 Styling for the Homes section, which consists of a complex grid of cards w images, descriptions utilizing both CSS grid and flexbox.
 
 ## Branch Gallery
-Styling for a complex image gallery, featuring images of different sizes and orientations, using CSS grid
+Styling for a complex image gallery, featuring 14 images of different size and orientation, using a CSS grid of 8 columns/7 rows. Note that height property and object-fit:cover property are required on the images to make this work.
