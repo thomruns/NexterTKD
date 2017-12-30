@@ -8,20 +8,55 @@
 
     .home {
         background-color: $color-grey-light-1;
+        box-shadow: 0 2rem 3rem rgba(#000, .2);
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-row-gap: 3.5rem;
 
         &__img {
             width: 100%;
-
+            grid-row: 1 / 2;
+            grid-column: 1 / -1;
+            z-index: 1;
         }
 
         &__like {
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
 
+            fill: $color-primary;
+            height: 2.5rem;
+            width: 2.5rem;
+            z-index: 2;
+            justify-self: end;
+            margin: 1rem;
 
         }
 
         &__name {
+            grid-row: 1 / 2;
+            grid-column: 1 / -1;
+            justify-self: center; //move to center
+            align-self: end; //move to bottom
+            z-index: 3;
+            width: 80%; //percentage of container
 
+            font-family: $font-display;
+            font-size: 1.6rem;
+            text-align: center;
+            padding: 1.25rem;
+            color: #fff;
+            font-weight: 400;
+            background-color: $color-secondary;
+            transform: translateY(50%); //move down half its height
 
+        }
+
+        &__location,
+        &__rooms {
+            margin-top: 2.5rem;
         }
 
         &__location,
@@ -29,17 +64,25 @@
         &__area,
         &__price {
             
+            font-size: 1.3rem;
+            margin-left: 2rem;
+
+            display: flex;
+            align-items: center;
 
             svg {
                 fill: $color-primary;
                 height: 2rem;
                 width: 2rem;
+                margin-right: 1rem;
             }
 
-            p {
-                color: orangered;
-            }
 
+        }
+
+        &__btn {
+            grid-column: 1 / -1;
+            border: none;
         }
 
     }
