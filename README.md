@@ -18,3 +18,6 @@ Styling for the content side of the story section
 
 ## Branch Homes
 Styling for the Homes section, which consists of a complex grid of cards w images, descriptions utilizing both CSS grid and flexbox.
+
+## Branch Gallery
+Styling for a complex image gallery, featuring images of different sizes and orientations, using CSS grid
