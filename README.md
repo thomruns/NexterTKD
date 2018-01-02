@@ -8,7 +8,7 @@ Sets the basic grid layout for the page. Grid is a flexible 8 column centered w 
 Sets the (sub)grid for the Features section. This section completed first as it uses the Layout base grid. A main grid is established for the section (features), then subgrid (feature) is added to complete the layout.
 
 ## Branch Story
-Section is divided into tow parts, a leftside w images, and a right side w content. Contains subgrids.
+Section is divided into two parts, a leftside w images, and a right side w content. Contains subgrids.
 
 ### __pictures
 Styling for the pictures side of the story section
@@ -23,4 +23,4 @@ Styling for the Homes section, which consists of a complex grid of cards w image
 Styling for a complex image gallery, featuring 14 images of different size and orientation, using a CSS grid of 8 columns/7 rows. Note that height property and object-fit:cover property are required on the images to make this work.
 
 ## Branch Footer
-Styling for the simple footer section
+Styling for the simple footer section. Still utilizing CSS grid so that footer is responsive without the need for media queries.
