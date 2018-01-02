@@ -24,3 +24,6 @@ Styling for a complex image gallery, featuring 14 images of different size and o
 
 ## Branch Footer
 Styling for the simple footer section. Still utilizing CSS grid so that footer is responsive without the need for media queries.
+
+## Branch Sidebar
+Styling for the (non-functional) button in the sidebar.
