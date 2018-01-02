@@ -36,7 +36,7 @@ body {
 
 .container {
     display: grid;
-    //6 rows: 80% viewspace / mincontent / 40% viewspace / 3 rows mincontent size
+    //6 rows: 80% viewheight / mincontent / 40% viewwidth / 3 rows mincontent size
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
     // 11 columns: sidebar / flexspace min60px max1fr / 8cols mincontent size max 140px / flexspace min60px max1fr
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start]repeat(8, [col-start] minmax(min-content, 14rem)[col-end]) [center-end] minmax(6rem, 1fr) [full-end];

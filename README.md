@@ -29,4 +29,10 @@ Styling for the simple footer section. Still utilizing CSS grid so that footer i
 Styling for the (non-functional) button in the sidebar.
 
 ## Branch Header
-Content and styling for a complex header section.
+Content and styling for a complex header section. As with the Story section, the Header consists of two sides:
+
+### __header
+Styling for the left side, with logo, CTA button, and other content
+
+### __realtors
+Styling for the right side of the header section, with info on featured realtors
