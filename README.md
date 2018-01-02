@@ -21,3 +21,6 @@ Styling for the Homes section, which consists of a complex grid of cards w image
 
 ## Branch Gallery
 Styling for a complex image gallery, featuring 14 images of different size and orientation, using a CSS grid of 8 columns/7 rows. Note that height property and object-fit:cover property are required on the images to make this work.
+
+## Branch Footer
+Styling for the simple footer section
