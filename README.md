@@ -36,3 +36,6 @@ Styling for the left side, with logo, CTA button, and other content
 
 ### __realtors
 Styling for the right side of the header section, with info on featured realtors
+
+## Branch Responsive
+CSS modifications and media queries to make the page responsive for various screen sizes
