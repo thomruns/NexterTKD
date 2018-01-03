@@ -1,5 +1,5 @@
 # CSS Grid Module
-This is a project from a Udemy course titled Advanced CSS. The module focuses on CSS grids. The branch listing below is in chronological development order.
+This is a project from a Udemy course titled Advanced CSS. The module focuses on CSS grids. The branch listing below is sequential, in chronological development order.
 
 ## Branch Layout
 Sets the basic grid layout for the page. Grid is a flexible 8 column centered w a left sidebar.
